@@ -95,5 +95,5 @@ def hangman():
         if check_win_or_loss(word, guessed_word, attempts):
             break
 
-# Run the game
+
 hangman()
