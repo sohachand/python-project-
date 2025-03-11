@@ -6,7 +6,7 @@ def load_word_lists(filename):
     word_lists = {}
     with open(filename, "r") as file:
         reader = csv.reader(file)
-        next(reader)  # Skip the header row
+        next(reader)  
         for row in reader:
             genre, word = row
             if genre not in word_lists:
